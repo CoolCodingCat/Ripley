@@ -1,0 +1,46 @@
+body {
+    font-family: 'Dosis', 'arial', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    color: #5F6097;
+}
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    padding-left: 100px;
+}
+.title {
+    height: 400px;
+    background-color: #5F6097;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+.studies {
+    display: flex;
+    justify-content: space-around;
+}
+.littlepix {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.studies img {
+    height: 250px;
+    margin-bottom: 15px;
+    border: 1px solid #5F6097;
+    border-radius: 15px 50px 30px;
+}
+.littlepix p {
+    font-weight: bold;
+}
