@@ -14,13 +14,22 @@ h1 {
     font-size: 50px;
     color: white;
     padding-left: 100px;
+    margin-bottom: 20px;
 }
 .title {
     height: 400px;
-    background-color: #5F6097;
+    /*background-color: #5F6097;*/
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     margin: 0 20px;
+    transition: 0.8s ease;
+    background-image: url("../Ripley/images/class3.png");
+    background-size: cover;
+}
+.title:hover {
+    transition: 0.8s ease;
+    background-image: url("../Ripley/images/alien.jpg");
+    background-size: cover;
 }
 .studies {
     display: flex;
